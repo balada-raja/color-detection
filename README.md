@@ -12,7 +12,7 @@ Program ini mendeteksi warna hijau secara real-time menggunakan OpenCV. Kode ini
 •	Frame diberi efek blur menggunakan Gaussian Blur untuk mengurangi noise.
 •	Frame dikonversi dari BGR ke HSV.
 •	Mask dibuat menggunakan rentang HSV yang telah ditentukan untuk warna hijau.
-•	Kontur objek hijau yang terdeteksi diidentifikasi dan diberi kotak pembatas.
+•	Kontur objek hijau yang terdeteksi dan diberi kotak pembatas.
 •	Hasilnya ditampilkan dalam dua jendela: frame asli dengan objek yang terdeteksi dan mask.
 # Penjelasan Fungsi
 1.	cv2.VideoCapture(0)
